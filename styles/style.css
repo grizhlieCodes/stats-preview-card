@@ -104,6 +104,11 @@ article.stats-card {
   }
 }
 
+.stat {
+  text-transform: uppercase;
+
+}
+
 .info__stats {
   display: flex;
   flex-flow: column nowrap;
@@ -129,19 +134,4 @@ article.stats-card {
   letter-spacing: 0.1rem;
   line-height: 2.5rem;
   opacity: 0.6;
-  text-transform: uppercase;
 }
-
-/* 
-.stats-card__img-container img:nth-child(2){
-    display: none;
-}
-
-@media screen and (min-width: 1200px){
-    .stats-card__img-container img:nth-child(1){
-        display: none;
-    }
-    .stats-card__img-container img:nth-child(2){
-        display: block;
-    }
-} */
