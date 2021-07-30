@@ -6,7 +6,7 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 2.4rem;
   display: grid;
   place-items: center;
@@ -15,7 +15,6 @@ body {
 
 article.stats-card {
   width: 100%;
-
   height: auto;
   display: grid;
   justify-items: center;
